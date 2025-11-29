@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta content='M Ramzan Ch | Web Developer Portfolio &amp; Designer' name='title' />
-  <meta content='Welcome to the official portfolio of M Ramzan Ch — a web developer and  designer who creates modern, responsive websites shares insights on web design, development, and in coding.' name='description' />
-  <meta content='M Ramzan Ch, M Ramzan the Web, Ramzan Web, Ramzan WordPress, M-Ramzan-Ch-portfolio, Ramzan-Spot, M-Spot, M-Ramzan-Ch-Web, Pro-Ramzan, Pro-Bandey-MegaMind-Solution, web developer, portfolio, tech blogger, web design, front-end development, back-end development,Simple Smart Scalable, JavaScript, React, HTML, CSS, PHP, coding tutorials, web technologies, programming blogs, responsive websites' name='keywords' />
+  <meta content='M Ramzan Ch | Web Developer &amp; Designer' name='title' />
+  <meta content='Welcome to the official portfolio of M Ramzan Ch — a web developer and  designer who creates modern, responsive websites shares on web, development, and in coding.' name='description' />
+  <meta content='M Ramzan Ch, M Ramzan the Web, Ramzan Web, Ramzan WordPress, M-Ramzan-Ch-portfolio, Ramzan-Spot, M-Spot, M-Ramzan-Ch-Web, Pro-Ramzan, Pro-Bandey-MegaMind-Solution, Pro Bandey Me, web developer, portfolio, tech blogger, web design, front-end development, back-end development,Simple Smart Scalable, JavaScript, React, HTML, CSS, PHP, coding tutorials, web technologies, programming blogs, responsive websites' name='keywords' />
 
   <meta content='M Ramzan Ch' name='author' />
 
@@ -26,10 +26,10 @@
   <meta content='M Ramzan Ch' name='application-name' />
   <meta content='#0a0a0a' name='theme-color' />
 
-  <link href='https://raw.githubusercontent.com/MegaMind-Solution/MegaMind-Solution/refs/heads/main/Img/M%20Ramzan%20GitHub%20New%20Time%20New%20Look%20_20250926_181503_0000.png' rel='icon' type='image/x-icon' />
+  <link href='https://raw.githubusercontent.com/MegaMind-Solution/MegaMind-Solution/refs/heads/main/Img/My/MR-MRamzanCh%20New%20Time%20New%20Look_001.png' rel='icon' type='image/x-icon' />
   <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' rel='stylesheet' />
   <meta content='width=device-width, initial-scale=1' name='viewport' />
-  <title>M Ramzan Ch | Web Developer Portfolio &amp; Designer</title>
+  <title>M Ramzan Ch | Web Developer &amp; Designer Dev</title>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
@@ -38,12 +38,12 @@
       --mycul: #f44234;
       --black: #444;
       --light-color: #777;
-      --bg-color: #e6e6e6;
+      --bg-color: #d9d9d9;
       --border: .1rem solid rgba(0, 0, 0, .2);
-      --box-shadow: .4rem .4rem 1rem #ccc,
-        -.4rem -.4rem 1rem #fff;
-      --box-shadow-inset: .4rem .4rem 1rem #ccc inset,
-        -.4rem -.4rem 1rem #fff inset;
+      --box-shadow: .4rem .4rem 1rem #a5a5a5,
+        -.4rem -.4rem 1rem #fafafa;
+      --box-shadow-inset: .4rem .4rem 1rem #a5a5a5 inset,
+        -.4rem -.4rem 1rem #fafafa inset;
     }
 
     * {
@@ -72,12 +72,12 @@
     body.active {
       --black: #fff;
       --light-color: #ddd;
-      --bg-color: #222;
+      --bg-color: #2e2c35;
       --border: .1rem solid rgba(0, 0, 0, .4);
-      --box-shadow: .4rem .4rem 1rem #111,
-        -.4rem -.4rem 1rem #333;
-      --box-shadow-inset: .4rem .4rem 1rem #111 inset,
-        -.4rem -.4rem 1rem #333 inset;
+      --box-shadow: .4rem .4rem 1rem #201f25,
+        -.4rem -.4rem 1rem #3c3945;
+      --box-shadow-inset: .4rem .4rem 1rem #201f25 inset,
+        -.4rem -.4rem 1rem #3c3945 inset;
     }
     .loadermain {
   position: fixed;
@@ -1089,56 +1089,74 @@
       });
     });
   </script>
-  
-  <script>
-    let menu = document.querySelector('#menu-btn');
-    let header = document.querySelector('.header');
+    <script>
+      // --- MENU TOGGLE ---
+  const menu = document.querySelector('#menu-btn');
+  const header = document.querySelector('.header');
 
-    menu.onclick = () => {
-      menu.classList.toggle('fa-times');
-      header.classList.toggle('active');
-    }
+  menu.onclick = () => {
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+  };
 
-    window.onscroll = () => {
-      menu.classList.remove('fa-times');
-      header.classList.remove('active');
-    }
-    // Get the theme toggler element. Ensure your button/icon has the ID 'theme-toggler'
-    let themeToggler = document.querySelector('#theme-toggler');
+  window.onscroll = () => {
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+  };
 
-    // --- 1. Initial Page Load Check ---
-    if (localStorage.getItem('theme') === 'dark') {
-    // Dark enabled: Set classes and the 'title' tooltip for the current state
-    document.body.classList.add('active');
-    themeToggler.classList.add('fa-sun');
-    themeToggler.setAttribute('title', 'Dark theme enabled'); 
+  // --- THEME TOGGLE And PROFILE IMAGE SWITCH ---
+  const themeToggler = document.querySelector('#theme-toggler');
+  const headerProfile = document.querySelector('.header .user img');
+  const homeProfile = document.querySelector('.home .content img');
+
+  const lightImage = 'https://raw.githubusercontent.com/MegaMind-Solution/MegaMind-Solution/refs/heads/main/Img/My/MR-MRamzanCh New Time New Look_006.png'; // Light theme image
+  const darkImage = 'https://raw.githubusercontent.com/MegaMind-Solution/MegaMind-Solution/refs/heads/main/Img/My/MR-MRamzanCh New Time New Look_001.png';  // Dark theme image
+
+  function updateThemeAndImages(isDark) {
+    if(isDark){
+      document.body.classList.add('active');
+      themeToggler.classList.add('fa-sun');
+      themeToggler.setAttribute('title', 'Dark theme enabled');
+      headerProfile.src = darkImage;
+      homeProfile.src = darkImage;
     } else {
-    // Light enabled: Set classes and the 'title' tooltip for the current state
-    document.body.classList.remove('active');
-    themeToggler.classList.remove('fa-sun'); 
-    themeToggler.setAttribute('title', 'Light theme enabled'); 
+      document.body.classList.remove('active');
+      themeToggler.classList.remove('fa-sun');
+      themeToggler.setAttribute('title', 'Light theme enabled');
+      headerProfile.src = lightImage;
+      homeProfile.src = lightImage;
     }
-
-    // --- 2. Theme Toggle Button Click ---
-    themeToggler.onclick = () => {
-    // Toggle the icon class (e.g., switch between moon and sun)
-    themeToggler.classList.toggle('fa-sun');
-
-    if (themeToggler.classList.contains('fa-sun')) {
-        // Switching TO Dark Theme
-        document.body.classList.add('active');
-        localStorage.setItem('theme', 'dark');
-        themeToggler.setAttribute('title', 'Dark theme enabled');
-    } else {
-        // Switching TO Light Theme
-        document.body.classList.remove('active');
-        localStorage.setItem('theme', 'light'); 
-        themeToggler.setAttribute('title', 'Light theme enabled');
-    }
-    };
-
+  };
+  const savedTheme = localStorage.getItem('theme');
+  updateThemeAndImages(savedTheme === 'dark');
+  themeToggler.onclick = () => {
+    const isDark = !document.body.classList.contains('active');
+    updateThemeAndImages(isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  };
+  // Page Loader animation 
+  (function () {
+      const loader = document.querySelector(".loadermain");
+      let minDisplayTime = 1000;   // Minimum time loader is visible
+      let maxWaitTime = 8000;      // Max timeout if resources load slow
+      let fadeDuration = 600;      // Fade-out animation duration
+      
+      const startTime = performance.now();
+      function hideLoader() {
+        const elapsed = performance.now() - startTime;
+        const remaining = Math.max(minDisplayTime - elapsed, 0);
+        setTimeout(() => {
+          loader.classList.add("loadermain-hidden");
+          setTimeout(() => {
+            loader.remove();
+          }, fadeDuration);
+        }, remaining);
+      }
+      window.addEventListener("load", hideLoader);
+      setTimeout(hideLoader, maxWaitTime);
+      window.hidePageLoader = hideLoader;
+    })();
   </script>
-
   <script>
     var uri = window.location.toString();
     if (uri.indexOf("%3D", "%3D") > 0) {
@@ -1160,27 +1178,6 @@
       var clean_uri = uri.substring(0, uri.indexOf("?m=1"));
       window.history.replaceState({}, document.title, clean_uri);
     }
-    (function () {
-      const loader = document.querySelector(".loadermain");
-      let minDisplayTime = 1000;   // Minimum time loader is visible
-      let maxWaitTime = 8000;      // Max timeout if resources load slow
-      let fadeDuration = 600;      // Fade-out animation duration
-      
-      const startTime = performance.now();
-      function hideLoader() {
-        const elapsed = performance.now() - startTime;
-        const remaining = Math.max(minDisplayTime - elapsed, 0);
-        setTimeout(() => {
-          loader.classList.add("loadermain-hidden");
-          setTimeout(() => {
-            loader.remove();
-          }, fadeDuration);
-        }, remaining);
-      }
-      window.addEventListener("load", hideLoader);
-      setTimeout(hideLoader, maxWaitTime);
-      window.hidePageLoader = hideLoader;
-    })();
   </script>
 </body>
 </html>
