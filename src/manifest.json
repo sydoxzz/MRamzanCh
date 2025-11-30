@@ -1,0 +1,45 @@
+{
+  "lang": "en",
+  "author": "M Ramzan Ch",
+  "title": "M Ramzan Ch",
+  "publisher": "MicroResearch Corporation®",
+  "image":
+  {
+    "src": "https://raw.githubusercontent.com/MegaMind-Solution/MegaMind-Solution/refs/heads/main/Img/My/MR-MRamzanCh%20New%20Time%20New%20Look_001.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  "start_url": "/",
+  "scope": "/",
+  "url": "https://m-ramzan-ch.blogspot.com/",
+  "description": "Hi! I’m M Ramzan Ch, modern web developer and designer, responsive design, front-end & back-end development expertise.",
+  "logo": {
+    "url": "https://m-ramzan-ch.blogspot.com/favicon.ico",
+    "type": "ico",
+    "size": 9662,
+    "height": 250,
+    "width": 250,
+  },
+}
+
+<script>
+const swCode = `
+self.addEventListener('install', e => {
+  e.waitUntil(
+    caches.open('ramzan-cache-v1').then(cache => cache.addAll(['/','/?m=1']))
+  );
+});
+self.addEventListener('fetch', e => {
+  e.respondWith(
+    caches.match(e.request).then(response => response || fetch(e.request))
+  );
+});
+`;
+const blob = new Blob([swCode], { type: 'application/javascript' });
+const swURL = URL.createObjectURL(blob);
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(swURL);
+}
+</script>
